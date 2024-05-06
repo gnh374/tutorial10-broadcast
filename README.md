@@ -11,3 +11,9 @@
 - Ketika kita mengganti kedua port (pada client dan server) maka aplikasi akan berjalan dengan lancar sama seperti sebelumnya
 ![alt text](<Screenshot 2024-05-06 203147.png>)
 
+
+### Eksperiment 2.3
+![alt text](<Screenshot 2024-05-06 210135.png>)
+
+Hal di atas dicapai dengan mengubah bcast.tx pada server. Hal ini dilakukan agar setiap server mengirimkan pesan ke client, alamat IP pengirim juga disertakan melalui variable `addr`
+
